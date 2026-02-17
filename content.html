@@ -1,0 +1,38 @@
+
+<p>Let's practice converting between numeric types in Python, step by step.</p>
+
+<py-cell>
+# Start with a float
+my_number = 2.6
+print(my_number)
+</py-cell>
+
+<p>Convert the float to an integer using <code>int()</code> (truncates toward zero).</p>
+<py-cell>
+round_down = int(my_number)
+print(round_down)
+</py-cell>
+
+<p>Round to the nearest integer using <code>round()</code>.</p>
+<py-cell>
+round_nearest = round(my_number)
+print(round_nearest)
+</py-cell>
+
+<p>Convert the rounded integer back to a float.</p>
+<py-cell>
+new_float = float(round_nearest)
+print(new_float)
+</py-cell>
+
+<p>Now let's try the same steps with a negative number.</p>
+<py-cell>
+my_number = -3.6
+print(my_number)
+round_down = int(my_number)
+print(round_down)
+round_nearest = round(my_number)
+print(round_nearest)
+new_float = float(round_nearest)
+print(new_float)
+</py-cell>

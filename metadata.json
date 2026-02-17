@@ -1,0 +1,16 @@
+{
+    "title": "Sample Solution: Numeric Type Conversions",
+    "slug": "sample-solution-python-numeric-type-conversions",
+    "description": "Sample solution showing how to create variables, apply rounding and type conversion methods, and verify results with print statements.",
+    "authors": [
+        "chris-cooling"
+    ],
+    "tags": [
+        "python"
+    ],
+    "duration": 8,
+    "prerequisites": [
+        "exercise-python-numeric-type-conversions"
+    ],
+    "related": []
+}
