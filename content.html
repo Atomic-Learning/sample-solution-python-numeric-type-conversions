@@ -36,3 +36,11 @@ print(round_nearest)
 new_float = float(round_nearest)
 print(new_float)
 </py-cell>
+
+<h2>Answers to Question</h2>
+
+<ul>
+    <li><code class="language-python">int()</code> truncates towards zero, whilst <code class="language-python">round()</code> rounds to the nearest integer.</li>
+    <li><code class="language-python">round</code> always rounds to the nearest number. <code class="language-python">int</code> will round down for positive numbers and up for negative numbers (both toward zero).</li>
+    <li>If you convert a float to an integer, you will lose the decimal part of the number so, even after converting back to a float, the value will be different from the original (unless the original number was already a whole number).</li>
+</ul>
